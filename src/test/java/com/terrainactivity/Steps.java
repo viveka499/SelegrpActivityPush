@@ -109,20 +109,18 @@
  * //Login
  * 
  * 
- * @When("^User enters valid data$") public void enter_data(DataTable tables)
- * throws Throwable {
+ * @When("^User enters (\\w+) and (\\w+)$") public void
+ * user_enters_UserName_and_Password(String email, String password) throws
+ * Throwable { System.out.println(email); System.out.println(password);
+ * driver.findElement(By.id("email")).sendKeys(email); Thread.sleep(500);
  * 
- * List<List<String>> data1=tables.raw();
- * 
- * driver.findElement(By.id("email")).sendKeys(data1.get(1).get(0));
- * Thread.sleep(500);
- * 
- * driver.findElement(By.id("password")).sendKeys(data1.get(1).get(1));
- * Thread.sleep(500); driver.findElement(By.name("submit")).click();
+ * driver.findElement(By.id("password")).sendKeys(password); Thread.sleep(500);
+ * driver.findElement(By.name("submit")).click();
  * 
  * 
  * 
  * System.out.println("data entered in the application"); }
+ * 
  * 
  * @Then("^Successful Login$") public void success_login() throws Throwable {
  * driver.getTitle().contains("Title"); boolean funcLogin ;

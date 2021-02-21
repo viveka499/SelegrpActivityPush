@@ -157,33 +157,33 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 29,
-  "name": "User enters valid data",
+  "line": 30,
+  "name": "User enters valid details",
   "rows": [
     {
       "cells": [
-        "Fields",
-        "Values"
+        "email",
+        "password"
       ],
-      "line": 30
+      "line": 31
     },
     {
       "cells": [
         "nithya@gmail.com",
         "urspassword@123"
       ],
-      "line": 31
+      "line": 32
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 32,
+  "line": 33,
   "name": "Successful Login",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 37,
   "name": "user enters valid data details on the page",
   "rows": [
     {
@@ -191,48 +191,48 @@ formatter.step({
         "Fields",
         "values"
       ],
-      "line": 36
+      "line": 38
     },
     {
       "cells": [
         "Quantity",
         "2"
       ],
-      "line": 37
+      "line": 39
     },
     {
       "cells": [
         "card_nmuber",
         "7493037578241902"
       ],
-      "line": 38
+      "line": 40
     },
     {
       "cells": [
         "month",
         "02"
       ],
-      "line": 39
+      "line": 41
     },
     {
       "cells": [
         "year",
         "2022"
       ],
-      "line": 40
+      "line": 42
     },
     {
       "cells": [
         "cvv_code",
         "989"
       ],
-      "line": 41
+      "line": 43
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 42,
+  "line": 44,
   "name": "payment should be done",
   "keyword": "Then "
 });
@@ -240,49 +240,49 @@ formatter.match({
   "location": "TerrainStepDefinition.open_guru99()"
 });
 formatter.result({
-  "duration": 5761256100,
+  "duration": 6109128600,
   "status": "passed"
 });
 formatter.match({
   "location": "TerrainStepDefinition.enter_data_Reg(DataTable)"
 });
 formatter.result({
-  "duration": 9741389100,
+  "duration": 11888702900,
   "status": "passed"
 });
 formatter.match({
   "location": "TerrainStepDefinition.success_Reg()"
 });
 formatter.result({
-  "duration": 1226786500,
+  "duration": 1070545800,
   "status": "passed"
 });
 formatter.match({
   "location": "TerrainStepDefinition.enter_data(DataTable)"
 });
 formatter.result({
-  "duration": 8445077200,
+  "duration": 7222661200,
   "status": "passed"
 });
 formatter.match({
   "location": "TerrainStepDefinition.success_login()"
 });
 formatter.result({
-  "duration": 990714300,
+  "duration": 1024935000,
   "status": "passed"
 });
 formatter.match({
   "location": "TerrainStepDefinition.enter_Data(DataTable)"
 });
 formatter.result({
-  "duration": 31349626800,
+  "duration": 27435972100,
   "status": "passed"
 });
 formatter.match({
   "location": "TerrainStepDefinition.payment_Successful()"
 });
 formatter.result({
-  "duration": 492708400,
+  "duration": 489533400,
   "status": "passed"
 });
 });

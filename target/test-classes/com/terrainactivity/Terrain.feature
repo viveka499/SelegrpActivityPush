@@ -26,10 +26,12 @@ When user enter valid data on the page
 Then the user registration should be successful
 
 
-When User enters valid data 
-| Fields | Values |
+
+When User enters valid details 
+| email | password |
 | nithya@gmail.com | urspassword@123 |
 Then Successful Login
+
 
 
 When user enters valid data details on the page
